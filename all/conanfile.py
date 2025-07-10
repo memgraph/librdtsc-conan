@@ -71,10 +71,7 @@ class Librdtsc(ConanFile):
         cmake.install()
 
     def package_info(self):
-        self.cpp_info.libs = ["librdtsc"]
-
         self.cpp_info.set_property("cmake_file_name", "librdtsc")
         self.cpp_info.set_property("cmake_target_name", "librdtsc::librdtsc")
-
-        self.cpp_info.libs = ["rdtsc"]  # Name of the actual .so/.a file
+        self.cpp_info.libs = ["rdtsc"]
 
