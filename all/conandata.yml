@@ -4,6 +4,6 @@ sources:
     sha256: "c64b1f4163f59b6715dd346d7eb2a04a84b5a7c83d5f0b784d2f8170fae225b1"
 patches:
   "v0.3":
-    - patch_file: "patches/v0.3-static-shared.build.patch"
-      patch_description: "Support both static and shared build"
+    - patch_file: "patches/v0.3.patch"
+      patch_description: "Patch for v0.3 version"
       patch_type: "conan"
