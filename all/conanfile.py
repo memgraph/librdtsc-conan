@@ -15,7 +15,6 @@ class Librdtsc(ConanFile):
     topics = ("librdtsc", "cpu")
     package_type = "library"
     settings = "os", "arch", "compiler", "build_type"
-    # TODO: (andi) Extend options
     options = {
             "shared": [True, False],
             "fPIC": [True, False],
